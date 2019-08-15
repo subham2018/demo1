@@ -1,0 +1,68 @@
+/*brand color: #05519d*/
+@import url(https://fonts.googleapis.com/css?family=Rubik:100,400,500,700);
+html,body{
+	margin:0;
+	padding:0;
+	background-color:#f4f4f4;
+	font-family:'Rubik';
+	font-weight:400;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x:hidden;
+	height:100%;
+	background-image:url(../image/back.jpg);
+	background-position:center center;
+}
+a,button{transition:.3s all;}
+img{pointer-events:none}
+.form-control{resize:none; outline:none; border-radius:0; transition:.2s}
+.input-group-addon{border-radius:0}
+.btn{border-radius:0}
+.btn-gray{
+	background-color:#999;
+	color:#fff;
+}
+.btn-gray:hover,.btn-gray:active,.btn-gray:focus{background-color:#333; color:#fff;}
+.hr_black{border-color:#000;}
+.nomar{margin:0 !important}
+.nopad{padding:0 !important}
+.text-red{color:#e74c3c}
+.text-green{color:#27ae60}
+
+/*main page*/
+.container{
+	height:100% !important;
+}
+.login-cont{
+	display:table;
+	height:100% !important;
+	width:100%;
+	text-align:center;
+}
+.login-cont .row{
+	display:table-cell;
+	vertical-align:middle;
+}
+.login-cont .panel,
+.login-cont .panel-body{background-color:rgba(255,255,255,.5)}
+.login-cont .input-group-addon{
+	background-color:#fff;
+	color:#888;
+	border-left:none;
+}
+.login-cont .form-control{border-right:none;}
+.login-cont .form-control:focus{
+	box-shadow:none;
+	border-color:#ccc;
+	border-left-width:5px;
+}
+.login-cont h6{
+	text-align:center;
+	color:#fff !important;
+	font-weight: normal;
+}
+.login-cont img{
+	margin-bottom:10px;
+}
+.ajax-load{display: none;}
